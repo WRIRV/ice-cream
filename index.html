@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мороженое</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <picture>
+        <source srcset="images/logo_mobile.svg" width="41" height="39" media="(max-width: 1239px)">
+        <img src="images/logo.svg" alt="Логотип" class="logo" width="150" height="150">
+        </picture>
+
+        <button class="burger" type="button">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="visually-hidden">открыть/закрыть меню</span>
+        </button>
+
+        <nav class="main-nav wrapper">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#about" class="nav-link">О нас</a></li>
+                <li class="nav-list-item"><a href="#catalog" class="nav-link">Каталог</a></li>
+                <li class="nav-list-item"><a href="#best" class="nav-link nav-link-last">Лучшие вкусы</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+        <h1 class="title">Изысканное наслаждение</h1>
+        <p class="promo-text">Наши рецепты вдыхают жизнь в изысканность ингредиентов: ароматное натуральное масло, свежие сливки и только натуральные добавки. Мы тщательно отбираем каждый компонент премиального мороженого, стремясь подарить вам истинное наслаждение.</p>
+        <a href="catalog.html" class="button">Заказать</a>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="traditions" id="about">
+            <div class="wrapper">
+            <h2 class="traditions-title">Традиции и любовь</h2>
+
+            <div class="wrapper-text">
+            <p class="traditions-text">Наше мороженое сделает вас не только чуть счастливее, но и здоровее. Здоровье и польза - главные принципы, которых мы придерживаемся, создавая наше мороженое.</p>
+
+            <p class="traditions-text">Мы используем традиционные рецепты и 100%-но натуральные ингредиенты. Наши продукты можно давать детям с трех лет. Сладкоежкам мы можем предложить 55 видов мороженого, 15 типов кофе и 23 вида молочных коктейлей.</p>
+
+            <p class="traditions-text">Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.</p>
+            </div>
+            </div>
+        </section>
+
+        <section class="select" id="catalog">
+            <div class="wrapper">
+            <h2 class="select-title">Выберите мороженое</h2>
+
+            <ul class="select-list">
+                <li class="select-list-item">
+                    <img src="images/ice-cream1.png" alt="шарики мороженого в вафельных стаканчиках" class="select-image">
+                    <h3 class="select-subtitle">Шарики</h3>
+                    <p class="select-text">Шарики мороженого в ассортименте с топингом на выбор.</p>
+                    <a href="catalog.html" class="select-link">
+                        <span class="visually-hidden">Перейти на страницу с шариками мороженого</span>
+                    </a>
+                </li>
+
+                <li class="select-list-item">
+                    <img src="images/ice-cream2.png" alt="вкусные коктейли" class="select-image">
+                    <h3 class="select-subtitle">Коктейли</h3>
+                    <p class="select-text">Натуральное молоко и свежие фрукты - вот рецепт идеального коктейля.</p>
+                    <a href="#" class="select-link">
+                        <span class="visually-hidden">Перейти на страницу с коктейлями</span>
+                    </a>
+                </li>
+
+                <li class="select-list-item">
+                    <img src="images/ice-cream3.png" alt="вкусно выглядящее эскимо" class="select-image">
+                    <h3 class="select-subtitle">Эскимо</h3>
+                    <p class="select-text">Идеальный рецепт пломбира, покрытого глазурьтю или настоящим шоколадом.</p>
+                    <a href="#" class="select-link">
+                        <span class="visually-hidden">Перейти на страницу с эскимо</span>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </section>
+
+        <section class="magic" id="best">
+            <ul class="taste-buttons-list wrapper">
+                <li>
+                    <button class="taste-button button-vanilla" type="button">Ваниль</button>
+                </li>
+                <li>
+                    <button class="taste-button button-blueberry" type="button">Черника</button>
+                </li>
+                <li>
+                    <button class="taste-button button-choco" type="button">Шоколад</button>
+                </li>
+                <li>
+                    <button class="taste-button button-strawberry" type="button">Клубника</button>
+                </li>
+                <li>
+                    <button class="taste-button button-pistach" type="button">Фисташки</button>
+                </li>
+                <li>
+                    <button class="taste-button button-mango" type="button">Манго</button>
+                </li>
+            </ul>
+            <div class="magic-content wrapper">
+            <div class="widget">
+                <ul class="ice-cream-list">
+                    <li>
+                        <img src="images/vanil.png" alt="шарик ванильного мороженого" class="ice-cream-img ice-vanilla" width="127" height="107">
+                    </li>
+                    <li>
+                        <img src="images/blueberry.png" alt="шарик черничного мороженого" class="ice-cream-img ice-blueberry" width="153" height="139">
+                    </li>
+                    <li>
+                        <img src="images/chocolate.png" alt="шарик шоколадного мороженого" class="ice-cream-img ice-choco" width="129" height="117">
+                    </li>
+                    <li>
+                        <img src="images/strawberry.png" alt="шарик клубничного мороженого" class="ice-cream-img ice-strawberry" width="134" height="120">
+                    </li>
+                    <li>
+                        <img src="images/fistashka.png" alt="шарик фисташкового мороженого" class="ice-cream-img ice-pistach" width="128" height="119">
+                    </li>
+                    <li>
+                        <img src="images/mango.png" alt="шарик мангового мороженого" class="ice-cream-img ice-mango" width="225" height="225">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="magic-text-wrapper">
+            <h2 class="magic-title">Волшебные вкусы</h2>
+
+            <p class="magic-text">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки произведены из натурального сырья.</p>
+
+            <a href="catalog.html" class="button magic-button">Попробовать</a>
+            </div>
+            </div>
+
+        </section>
+
+        <section class="subscribe">
+            <form action="#" class="subscribe-form wrapper" method="post">
+
+            <input type="email" class="subscribe-input" placeholder="Ваш e-mail" name="email" required>
+
+            <button class="subscribe-button" type="submit">Подписаться</button></form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text"><span>© 2024</span> Все права защищены.</p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>
